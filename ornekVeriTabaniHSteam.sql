@@ -3,7 +3,7 @@ create table kullanici(
 	kullanici_ismi varchar(50) not null,
 	kullanici_sifresi varchar(50) not null,
 	mail_adresi varchar(50) not null,
-	kullanici_tc int not null
+	kullanici_tc varchar(20) not null
 );
 
 
