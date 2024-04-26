@@ -252,11 +252,11 @@ and derskredi < 4;
 
 
 -- ornek sorgular
-/*select * from film 
+select * from film 
 where rental_rate > 4.5 and not rental_duration = 3
 order by rental_rate desc,rental_duration
 limit 1;*/
-/*
+
 SELECT yas, COUNT(*) as ogrenci_sayisi
 FROM ogrenci
 WHERE yas > (SELECT MIN(yas) FROM ogrenci)
@@ -319,7 +319,7 @@ order by yas;
 
 
 
-/*
+
 --dvd rental veri tabanındaki verilere göre. En çok filmde oynayan 3 aktörün tüm bilgilerini aktör adına göre azalan bir şekilde yaz
 SELECT actor.actor_id, actor.first_name, actor.last_name, COUNT(film_actor.film_id) as film_count
 FROM actor
@@ -336,7 +336,7 @@ FROM category
 JOIN film_category ON category.category_id = film_category.category_id
 GROUP BY category.name
 ORDER BY film_count DESC
-LIMIT 3; */
+LIMIT 3; 
 
 
 
