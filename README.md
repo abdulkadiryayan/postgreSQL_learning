@@ -1,0 +1,1 @@
+Bu repository de veri tabanı öğrenme sürecindeki oluşturduğum örnek veri tabanlarını ve öğrenme aşamasında yaptığım örnek kodlarımı paylaştım.
