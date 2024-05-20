@@ -3,7 +3,7 @@ postgresql de dvdrental dan da sorgu yaptım customer actor film gibi.
 oyun cüzdan vs de benim steam veritabanımdan sorgular.
 
 */
--- ahmet arifin pdf lerdeki ornek verileri
+-- pdf lerdeki ornek verileri
 create table ogrenci(
 		ogrenci_no int primary key not null,
 		isim varchar not null,
